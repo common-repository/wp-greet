@@ -1,0 +1,137 @@
+/* style for greet card form */
+div.wp-greet-form {
+  font-size: 14px;
+  font-family: Arial;
+  border: 0px solid;
+  padding: 10px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* style for greet card warnings and errors */
+div.wp-greet-error {
+	 font-size: 14px;
+		 font-family: Arial;
+		 border: 0px solid;
+		 padding: 10px;
+		 color: #FF0000;
+}
+
+/* style for greet card form table */
+table.wp-greet-form {
+					font-size: 14px;
+					font-family: Arial;
+					font-weight: bolder;
+					font-variant: small-caps;
+			border-spacing:2px;
+			border-collapse:collapse;
+			border: 1px solid;
+					text-align:left;
+					margin-left:auto;
+					margin-right:auto;
+			table-layout:fixed;
+}
+
+/* style for greet card form table-row */
+tr.wp-greet-form {
+					font-size: 14px;
+					font-family: Arial;
+					font-weight: bolder;
+					font-variant: small-caps;
+			border-spacing:2px;
+			border-collapse:collapse;
+					text-align:left;
+					margin-left:auto;
+					margin-right:auto;
+}
+
+/* style for greet card form table cell */
+td.wp-greet-form {
+					font-size: 14px;
+					font-family: Arial;
+					font-weight: bolder;
+					font-variant: small-caps;
+			border-spacing:2px;
+			border-collapse:collapse;
+					text-align:left;
+					margin-left:auto;
+					margin-right:auto;
+			width:66%;
+}
+
+/* style for greet card form table cell left side */
+td.wp-greet-form-left {
+			font-size: 14px;
+					font-family: Arial;
+					font-weight: bolder;
+					font-variant: small-caps;
+			border-spacing:2px;
+			border-collapse:collapse;
+					text-align:left;
+					vertical-align: top;
+					margin-left:auto;
+					margin-right:auto;
+}
+/* style for message textarea */
+textarea.wp-greet-form {
+					width: 99%;
+			height:120px;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 80%; }
+html body.single div#ui-datepicker-div.ui-datepicker div.ui-datepicker-buttonpane {margin: 2.5em 0 0;}
+tr.tr-admin {
+	vertical-align: top;
+}
+
+td.td-admin {
+	text-align: center;
+}
+
+div.wp-greet-submitters {
+  text-align: center;
+}
+
+button.bwc_formbutton {
+	margin-left: 200px;
+}
+
+.wpg_smile {
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+}
+/* rules for responsive table override if screen width become smaller */
+@media all and (max-width:640px) {
+	table.wp-greet-form, tr.wp-greet-form, td.wp-greet-form-left, td.wp-greet-form {
+		display: block;
+	}
+  table.wp-greet-form { border: 0px;}
+  td.wp-greet-form-left {
+	border: 0px;
+	text-align:left;
+	margin-left: 0;
+	max-width:100%
+  }
+
+  td.wp-greet-form {
+	text-align:left;
+	margin-left: 0;
+	max-width:100%;
+  }
+
+div.wp-greet-submitters {
+  text-align: left;
+}
+input[type="button"], input[type="reset"], input[type="submit"] {
+	font-size: 10px !important;
+	padding: 5px !important;
+}
+
+}

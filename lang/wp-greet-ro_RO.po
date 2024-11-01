@@ -1,0 +1,812 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-05 08:18+0200\n"
+"PO-Revision-Date: 2013-03-06 07:10+0200\n"
+"Last-Translator: Bogdan Simeanu <bogdan.simeanu@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-greet.php:162 wpg-admin-gal.php:84
+msgid "Galleries"
+msgstr "Galeriile"
+
+#: wp-greet.php:164
+msgid "Mail"
+msgstr ""
+
+#: wp-greet.php:166
+msgid "Security"
+msgstr "Securitate"
+
+#: wp-greet.php:168
+msgid "Logging"
+msgstr "Ma loghez"
+
+#: wpg-admin-gal.php:46
+msgid "No gallery plugin selected."
+msgstr "Nicio galerie nu e selectata."
+
+#: wpg-admin-gal.php:75 wpg-admin-mail.php:118 wpg-admin-sec.php:109
+#: wpg-admin.php:131
+msgid "Settings successfully updated"
+msgstr "Setarile au fost actualizate cu succes"
+
+#: wpg-admin-gal.php:87
+msgid "Active"
+msgstr "Activ"
+
+#: wpg-admin-gal.php:88
+msgid "ID"
+msgstr "Indicativul"
+
+#: wpg-admin-gal.php:89
+msgid "Name"
+msgstr "Numele"
+
+#: wpg-admin-gal.php:123
+msgid "Save"
+msgstr "Salveaza"
+
+#: wpg-admin-log.php:89
+msgid "Greetcard Log"
+msgstr "Logul felicitarii"
+
+#: wpg-admin-log.php:94
+msgid "Show all"
+msgstr "Arata totul"
+
+#: wpg-admin-log.php:103
+msgid "Lines per Page:"
+msgstr "Linii pe pagina:"
+
+#: wpg-admin-log.php:107
+msgid "No."
+msgstr "Nr."
+
+#: wpg-admin-log.php:108
+msgid "Date/Time"
+msgstr "Data si timpul"
+
+#: wpg-admin-log.php:109 templates/wp-greet-display-template.php:23
+#: templates/wp-greet-preview-template.php:41
+msgid "From"
+msgstr "De la"
+
+#: wpg-admin-log.php:110 templates/wp-greet-display-template.php:28
+#: templates/wp-greet-preview-template.php:46
+msgid "To"
+msgstr "Catre"
+
+#: wpg-admin-log.php:111
+msgid "Image"
+msgstr "Imaginea"
+
+#: wpg-admin-log.php:112
+msgid "IP-Adress"
+msgstr "Adresa IP"
+
+#: wpg-admin-log.php:113 wpg-admin-sec.php:308 wpg-form.php:352
+#: wpg-form.php:967
+msgid "Message"
+msgstr "Mesajul"
+
+#: wpg-admin-log.php:140
+msgid "Clear Log"
+msgstr "Stergeti log-ul"
+
+#: wpg-admin-mail.php:91
+#, fuzzy
+msgid "Mailreturnpath is not valid (wrong format or no MX entry for domain)."
+msgstr "mail-ul nu a fost validat (format gresit sau nu exista domeniul)"
+
+#: wpg-admin-mail.php:96
+#, fuzzy
+msgid ""
+"Static Sender email address is not valid (wrong format or no MX entry for "
+"domain)."
+msgstr "adresa de trimitere nu e valida (format gresit sau nu exista domeniul)"
+
+#: wpg-admin-mail.php:101
+#, fuzzy
+msgid ""
+"BCC (blind copy) email address is not valid (wrong format or no MX entry for "
+"domain)."
+msgstr "adresa de mail bcc nu e valida (format gresit sau nu exista domeniul)."
+
+#: wpg-admin-mail.php:106
+#, fuzzy
+msgid ""
+"Static From-Address email address is not valid (wrong format or no MX entry "
+"for domain)."
+msgstr "adresa de mail bcc nu e valida (format gresit sau nu exista domeniul)."
+
+#: wpg-admin-mail.php:111
+#, fuzzy
+msgid ""
+"Reply-To email address is not valid (wrong format or no MX entry for domain)."
+msgstr "adresa de mail bcc nu e valida (format gresit sau nu exista domeniul)."
+
+#: wpg-admin-mail.php:120 wpg-admin-sec.php:111 wpg-admin.php:133
+msgid "You have to change a field to update settings."
+msgstr "Ai de schimbat un camp pentru a actualiza setarile"
+
+#: wpg-admin-mail.php:156
+#, fuzzy
+msgid "wp-greet Mail-Settings"
+msgstr "setup-ul"
+
+#: wpg-admin-mail.php:162
+msgid "Mailtransfermethod"
+msgstr "metoda de transfer a mail-ului"
+
+#: wpg-admin-mail.php:169
+msgid "SMTP Server (hostname)"
+msgstr ""
+
+#: wpg-admin-mail.php:173
+msgid "SMTP Port (default:25)"
+msgstr ""
+
+#: wpg-admin-mail.php:179
+msgid "SMTP use SSL?"
+msgstr ""
+
+#: wpg-admin-mail.php:183
+#, fuzzy
+msgid "SMTP Username"
+msgstr "Numele meu:"
+
+#: wpg-admin-mail.php:188
+msgid "SMTP Password"
+msgstr ""
+
+#: wpg-admin-mail.php:195
+#, fuzzy
+msgid "Send mage inline"
+msgstr "Trimite imaginile inline"
+
+#: wpg-admin-mail.php:201
+#, fuzzy
+msgid "Static Sender-Address"
+msgstr "Adresa de emitent statica"
+
+#: wpg-admin-mail.php:203
+msgid "Will be sent as MAIL FROM, instead of the Sender-EMail from the form."
+msgstr ""
+
+#: wpg-admin-mail.php:208
+#, fuzzy
+msgid "Static From-Address"
+msgstr "Adresa de emitent statica"
+
+#: wpg-admin-mail.php:210
+msgid ""
+"Will be used as From-Address, instead of the Sender-EMail from the form."
+msgstr ""
+
+#: wpg-admin-mail.php:215
+msgid "Static From-Name"
+msgstr ""
+
+#: wpg-admin-mail.php:217
+msgid "Will be used as From-Name, instead of the Sender-Name from the form."
+msgstr ""
+
+#: wpg-admin-mail.php:222
+msgid "Send Bcc to"
+msgstr "Trimite Bcc la"
+
+#: wpg-admin-mail.php:224
+msgid "Mails will be sent to this address as blind copy."
+msgstr ""
+
+#: wpg-admin-mail.php:229
+#, fuzzy
+msgid "Static Reply-To-Address"
+msgstr "Adresa de emitent statica"
+
+#: wpg-admin-mail.php:231
+msgid ""
+"Will be used as Reply-To-Address, instead of the Sender-EMail from the form."
+msgstr ""
+
+#: wpg-admin-mail.php:236
+msgid "Mailreturnpath"
+msgstr "Mail returnat"
+
+#: wpg-admin-mail.php:238
+msgid ""
+"If set will add an extra mail header setting the return-path (deprecated in "
+"PHPMailer class)."
+msgstr ""
+
+#: wpg-admin-mail.php:245
+msgid "Default mail header"
+msgstr "Antetul implicit"
+
+#: wpg-admin-mail.php:247 wpg-admin-mail.php:254 wpg-admin-sec.php:249
+#: wpg-admin-sec.php:279 wpg-admin.php:333
+msgid ""
+"HTML allowed, use %sender% for sendername, %sendermail% for sender email-"
+"address, %receiver% for receiver name, %link% for generated link, %duration% "
+"for time the link is valid"
+msgstr ""
+"Permit HTML, use %sender% pentru sendername, %sendermail% pentru adresa de "
+"mail a celui care trimite, %receiver% pentru numele primitorului, %link% "
+"pentru link-ul generat, %duration% pentru timpul in care link-ul e valid"
+
+#: wpg-admin-mail.php:252
+msgid "Default mail footer"
+msgstr "Subsolul implicit"
+
+#: wpg-admin-mail.php:261 wpg-admin-sec.php:319 wpg-admin.php:407
+msgid "Update options"
+msgstr "Optiuni de actualizare"
+
+#: wpg-admin-reschedule.php:64
+msgid "Deleting active wp-greet events..."
+msgstr ""
+
+#: wpg-admin-reschedule.php:84 wpg-admin-reschedule.php:103
+msgid "done."
+msgstr ""
+
+#: wpg-admin-reschedule.php:87
+msgid "Reschedule future cards..."
+msgstr ""
+
+#: wpg-admin-reschedule.php:119
+msgid "Reschedule Future Cards"
+msgstr ""
+
+#: wpg-admin-reschedule.php:124
+msgid "Start"
+msgstr ""
+
+#: wpg-admin-reschedule.php:127
+msgid "Close"
+msgstr ""
+
+#: wpg-admin-sec.php:102
+msgid "Captcha plugin not found."
+msgstr "Denumirea plugin-ului nu e gasita"
+
+#: wpg-admin-sec.php:163
+msgid "wp-greet Security - Setup"
+msgstr "Setare - Securitate"
+
+#: wpg-admin-sec.php:169
+msgid "Spam protection"
+msgstr "Protectia antispam"
+
+#: wpg-admin-sec.php:173 wpg-admin.php:208
+msgid "none"
+msgstr "nimic"
+
+#: wpg-admin-sec.php:189
+msgid "Minimum role to send card"
+msgstr "Minimul de drepturi pt. trimitere felicitare"
+
+#: wpg-admin-sec.php:207
+msgid "Everyone"
+msgstr "Toti"
+
+#: wpg-admin-sec.php:218
+msgid "Enable Terms of Usage display and check"
+msgstr "Activati Termenii de utilizare si validati"
+
+#: wpg-admin-sec.php:223
+#, fuzzy
+msgid "Label for Terms of usage"
+msgstr "Termeni de utilizare"
+
+#: wpg-admin-sec.php:225
+msgid "HTML is allowed. Leave empty for default."
+msgstr ""
+
+#: wpg-admin-sec.php:230
+msgid "Terms of usage"
+msgstr "Termeni de utilizare"
+
+#: wpg-admin-sec.php:232
+msgid "HTML is allowed"
+msgstr "Se permite si HTML"
+
+#: wpg-admin-sec.php:241
+msgid "Use mail to verify sender address"
+msgstr "Utilizati mail-ul pentru a verifica adresa emitentului"
+
+#: wpg-admin-sec.php:246
+msgid "Verification mail text"
+msgstr "Verificati textul mail-ului"
+
+#: wpg-admin-sec.php:254
+msgid "Link valid time (hours)"
+msgstr "Timpul in care link-ul e activ (ore)"
+
+#: wpg-admin-sec.php:260
+msgid "0 means confirmation-link will never expire"
+msgstr "0 inseamna link-ul de confirmare nu va expira niciodata"
+
+#: wpg-admin-sec.php:265
+msgid "Confirmation mail to sender"
+msgstr "Confirmarea mail-ului"
+
+#: wpg-admin-sec.php:275
+msgid "Confirmation mail text"
+msgstr "Confirmarea textului din mail"
+
+#: wpg-admin-sec.php:286
+msgid "Mandatory fields"
+msgstr "Campurile obligatorii"
+
+#: wpg-admin-sec.php:288 wpg-form.php:305
+msgid "Sendername"
+msgstr "Numele meu:"
+
+#: wpg-admin-sec.php:292 wpg-form.php:310
+msgid "Sender"
+msgstr "Mail-ul meu:"
+
+#: wpg-admin-sec.php:296 wpg-form.php:320
+msgid "Recipientname"
+msgstr "Numele felicitatului:"
+
+#: wpg-admin-sec.php:300 wpg-form.php:325
+msgid "Recipient"
+msgstr "Mail-ul felicitatului:"
+
+#: wpg-admin-sec.php:304 wpg-form.php:347 wpg-form.php:965
+#: templates/wp-greet-display-template.php:33
+#: templates/wp-greet-preview-template.php:51
+msgid "Subject"
+msgstr "Subiect"
+
+#: wpg-admin.php:120
+msgid "imagewidth not in range (0..3200)."
+msgstr "Lungimea imaginii nu e in domeniu (0...3200)."
+
+#: wpg-admin.php:125
+msgid ""
+"Cards will be removed before fetch interval expires (Number of days an "
+"online card can be fetched > Number of days card entries are stored)"
+msgstr ""
+"Felicitarile au fost sterse inainte de a expira intervalul trimiterii "
+"(numarul de zile al felicitarii online in care se primeste > numarul de zile "
+"in care felicitarea e pastrata)"
+
+#: wpg-admin.php:197
+msgid "wp-greet Setup"
+msgstr "setup-ul"
+
+#: wpg-admin.php:200
+msgid "Reschedule future cards"
+msgstr ""
+
+#: wpg-admin.php:206
+msgid "Gallery-Plugin"
+msgstr "Plugin-ul - Galeriei"
+
+#: wpg-admin.php:217
+msgid "Use external link from WordPress media"
+msgstr ""
+
+#: wpg-admin.php:222
+#, fuzzy
+msgid "Use NGG/NCG data for image description"
+msgstr "Utilizati NGG pt. imagine"
+
+#: wpg-admin.php:228
+msgid "Form-Post/Page"
+msgstr "Formularul Post/Pagina"
+
+#: wpg-admin.php:244
+msgid "Fixed image width"
+msgstr "Lungimea imaginii"
+
+#: wpg-admin.php:250
+msgid "Use informations from profile"
+msgstr "Foloseste informatiile profilului"
+
+#: wpg-admin.php:256
+msgid "Allow more than one recipient"
+msgstr "Accepta mai mult de un recipient"
+
+#: wpg-admin.php:261
+#, fuzzy
+msgid "Allow Bcc for multiple recipients"
+msgstr "Accepta mai mult de un recipient"
+
+#: wpg-admin.php:266
+msgid "Allow sending cards in the future"
+msgstr "Permite trimiterea de felicitari in viitor"
+
+#: wpg-admin.php:271
+msgid "Use TinyMCE editor"
+msgstr ""
+
+#: wpg-admin.php:276
+msgid "Enable Smileys on greetcard form"
+msgstr "Activeaza Smileys pe felicitari"
+
+#: wpg-admin.php:280
+msgid "Default mail subject"
+msgstr "Subiectul de mail implicit"
+
+#: wpg-admin.php:287
+msgid "Offer 'send again'-link "
+msgstr ""
+
+#: wpg-admin.php:301
+#, fuzzy
+msgid "Message to display when a card has been sent or scheduled"
+msgstr "Felicitarea ta a fost trimisa"
+
+#: wpg-admin.php:303 wpg-admin.php:310
+#, fuzzy
+msgid ""
+"HTML allowed, use %sender% for sendername, %sendermail% for sender email-"
+"address, %receiver% for receiver name"
+msgstr ""
+"Permit HTML, use %sender% pentru sendername, %sendermail% pentru adresa de "
+"mail a celui care trimite, %receiver% pentru numele primitorului, %link% "
+"pentru link-ul generat, %duration% pentru timpul in care link-ul e valid"
+
+#: wpg-admin.php:308
+#, fuzzy
+msgid "Message to display when a confirmation mail has been sent"
+msgstr "Felicitarea ta a fost trimisa"
+
+#: wpg-admin.php:320
+msgid "Fetch cards online"
+msgstr "Trimite felicitarile online"
+
+#: wpg-admin.php:324
+msgid "Number of days an online card can be fetched"
+msgstr "Numarul de zile in care felicitarea poate fi deschisa"
+
+#: wpg-admin.php:329
+msgid "Online card HTML mail text"
+msgstr "Felicitare cu text HTML online"
+
+#: wpg-admin.php:339
+msgid "offer different stamps from the stamps directory"
+msgstr ""
+
+#: wpg-admin.php:344
+msgid "offer BuddyPress group logo as stamp"
+msgstr ""
+
+#: wpg-admin.php:345
+msgid "for BuddyPress group admin only"
+msgstr ""
+
+#: wpg-admin.php:349
+msgid "Add stamp image"
+msgstr "Adaugati imaginea"
+
+#: wpg-admin.php:373
+#, php-format
+msgid "Stampwidth in % of imagewidth"
+msgstr "Marimea stamp in % din lungime"
+
+#: wpg-admin.php:379
+msgid "enable background music for cards"
+msgstr ""
+
+#: wpg-admin.php:387
+msgid "enable logging"
+msgstr "activeaza log-urile"
+
+#: wpg-admin.php:391
+msgid "Number of days log entries are stored"
+msgstr "Numarul de zile ale intrarilor log-ului cat este stocat"
+
+#: wpg-admin.php:396
+msgid "Number of days card entries are stored"
+msgstr "Numarul de zile pt. cat timp intrarile felicitarii sunt stocate"
+
+#: wpg-admin.php:402
+msgid "disable wp-greet css rules"
+msgstr ""
+
+#: wpg-form.php:58 wpg-form.php:550 wpg-form.php:1158
+msgid "Add to Cart"
+msgstr ""
+
+#: wpg-form.php:60 wpg-form.php:82 wpg-form.php:219 wpg-form.php:266
+#: wpg-form.php:533 wpg-form.php:544 wpg-form.php:556 wpg-form.php:570
+#: wpg-form.php:793 wpg-form.php:1112
+msgid "Send"
+msgstr "Trimite"
+
+#: wpg-form.php:202 wpg-form.php:1247
+msgid "Your verification code is invalid."
+msgstr "Codul tau de verificare este necorespunzator"
+
+#: wpg-form.php:202 wpg-form.php:208 wpg-form.php:214
+msgid "Please send a new card at"
+msgstr "Te rog trimite o nou felicitare la:"
+
+#: wpg-form.php:208
+msgid "Your greeting card has already been sent."
+msgstr "Felicitarea ta a fost trimisa!"
+
+#: wpg-form.php:214
+msgid "Your confirmation link is timedout."
+msgstr "Confirmarea ta a expirat!"
+
+#: wpg-form.php:253
+msgid "You are not permitted to send greeting cards."
+msgstr "Nu-ti e permis sa trimiti felicitari"
+
+#: wpg-form.php:253
+#, fuzzy
+msgid "Please contact you WordPress Administrator."
+msgstr "Te rog contacteaza administratorul"
+
+#: wpg-form.php:266 wpg-form.php:444 wpg-form.php:1110
+msgid "Preview"
+msgstr "Previzualizeaza"
+
+#: wpg-form.php:305 wpg-form.php:310 wpg-form.php:320 wpg-form.php:325
+#: wpg-form.php:347 wpg-form.php:352
+msgid "Please fill in mandatory field"
+msgstr "Te rog completeaza campul cu mandatarul"
+
+#: wpg-form.php:315
+#, fuzzy
+msgid "Invalid sender mail address."
+msgstr "Mail-ul celui care trimite nu corespunde"
+
+#: wpg-form.php:335 wpg-form.php:342
+msgid "Invalid recipient mail address."
+msgstr "Mail-ul de primire a receptionarii e invalid"
+
+#: wpg-form.php:369 wpg-form.php:380 wpg-form.php:398 wpg-form.php:417
+#: wpg-form.php:427
+msgid "Spamprotection - Code is not valid.<br />"
+msgstr "Protectia antispam - Codul nu e valid. <br/>"
+
+#: wpg-form.php:370 wpg-form.php:381
+msgid ""
+"Please try again.<br />Tip: If you cannot identify the chars, you can "
+"generate a new image. Using Reload."
+msgstr ""
+"Te rog incearca din nou.<br/>Tip: Daca nu poti identifica caracterele, nu "
+"poti genera o noua imagine. Foloseste Reload."
+
+#: wpg-form.php:399 wpg-form.php:418 wpg-form.php:428
+msgid "Please try again."
+msgstr "Te rog incearca din nou."
+
+#: wpg-form.php:438
+msgid "Please accept the terms of usage before sending a greeting card.<br />"
+msgstr ""
+"Te rog sa accepti termenii de utilizare inainte de a trimite felicitarea.<br/"
+">"
+
+#: wpg-form.php:461
+msgid "CC"
+msgstr "CC"
+
+#: wpg-form.php:526
+msgid "Edit"
+msgstr ""
+
+#: wpg-form.php:530
+msgid "Purchase"
+msgstr ""
+
+#: wpg-form.php:538 wpg-form.php:548 wpg-form.php:554
+#: templates/wp-greet-form-template.php:289
+msgid "Back"
+msgstr "Inapoi"
+
+#: wpg-form.php:659
+msgid ""
+"You will be redirected to Paypal to complete your order. If you are not "
+"redirected to PayPal please click the Purchase button."
+msgstr ""
+
+#: wpg-form.php:733
+#, fuzzy
+msgid "Your greeting card has been sent."
+msgstr "Felicitarea ta a fost trimisa!"
+
+#: wpg-form.php:735
+msgid "Your greeting card has been sent or scheduled."
+msgstr "Felicitarea ta a fost trimisa"
+
+#: wpg-form.php:765
+msgid "Send this card to another recipient"
+msgstr ""
+
+#: wpg-form.php:787
+#, fuzzy
+msgid "An error occured while sending your greeting card."
+msgstr "O eroare apare cand trimiteti felicitarea"
+
+#: wpg-form.php:788 wpg-form.php:830
+msgid "Problem report"
+msgstr "Raportez problema"
+
+#: wpg-form.php:822
+msgid "A confirmation mail has been sent to your address."
+msgstr "Un mail de confirmare a fost trimis pe adresa ta."
+
+#: wpg-form.php:823
+#, fuzzy
+msgid ""
+"Please enter the link contained within the email into your browser and the "
+"greeting card will be sent."
+msgstr ""
+"Te rog introdu link-ul continut in mail in browser si felicitarea va fi "
+"trimisa."
+
+#: wpg-form.php:829
+msgid "An error occured while sending the confirmation mail."
+msgstr "O eroare apare cand trimit confirmarea de trimitere."
+
+#: wpg-form.php:916
+#, fuzzy
+msgid "Sender Name"
+msgstr "Numele meu:"
+
+#: wpg-form.php:918
+#, fuzzy
+msgid "Sender Email"
+msgstr "Mail-ul meu:"
+
+#: wpg-form.php:924
+msgid "Send confirmation to Sender"
+msgstr "Trimit confirmarea."
+
+#: wpg-form.php:927
+msgid "CC to Sender"
+msgstr "CC catre mine"
+
+#: wpg-form.php:929
+#, fuzzy
+msgid "Recipient Name"
+msgstr "Numele felicitatului:"
+
+#: wpg-form.php:931
+#, fuzzy
+msgid "Recipient Email"
+msgstr "Mail-ul felicitatului:"
+
+#: wpg-form.php:933
+msgid "Send card as blindcopy"
+msgstr ""
+
+#: wpg-form.php:940
+msgid "Background Music"
+msgstr ""
+
+#: wpg-form.php:944
+msgid "None"
+msgstr ""
+
+#: wpg-form.php:962
+msgid "Time to send card"
+msgstr "Seteaza data trimiterii:"
+
+#: wpg-form.php:1040
+msgid "Smileys"
+msgstr "Smileys"
+
+#: wpg-form.php:1058
+msgid "Spamprotection:"
+msgstr "Protectia antispam:"
+
+#: wpg-form.php:1080
+msgid "Sum of"
+msgstr "Suma"
+
+#: wpg-form.php:1104
+msgid "I accept the terms of usage of the greeting card service"
+msgstr "Acept termenii de utilizare a serviciului de trimitere felicitari"
+
+#: wpg-form.php:1105
+msgid "(show)"
+msgstr "(arata)"
+
+#: wpg-form.php:1111
+msgid "Reset form"
+msgstr "Reset"
+
+#: wpg-form.php:1247 wpg-form.php:1253
+msgid "Send a new card at"
+msgstr "Trimit o noua felicitare la"
+
+#: wpg-form.php:1253
+msgid "Your greetcard link is timed out."
+msgstr "Felicitarea ta a depasit limita de timp"
+
+#: wpg-func-mail.php:357
+msgid "Greeting Card Confirmation Mail"
+msgstr "Confirmarea pe mail a felicitarii"
+
+#: wpg-func-mail.php:434 templates/wp-greet-display-template.php:19
+msgid "A Greeting Card for you"
+msgstr "O felicitare pentru tine"
+
+#: wpg-func-mail.php:538
+#, fuzzy
+msgid "Your greeting card was received"
+msgstr "Felicitarea ta a fost primita"
+
+#: wpg-func.php:620
+msgid "Stampimage not found - Please contact your administrator"
+msgstr "Marcajul stamp nu e gasit - Te rog contacteaza administratorul"
+
+#: wpg-func.php:971
+#, fuzzy
+msgid "wp-greet external link"
+msgstr "setup-ul"
+
+#: wpg-func.php:974
+msgid "If provided, wp-greet will link the image to this URL"
+msgstr ""
+
+#: wpg-func.php:979
+#, fuzzy
+msgid "wp-greet open external link in new tab/window"
+msgstr "setup-ul"
+
+#: wpg-func.php:982
+msgid "If checked external links will open in new tab/window"
+msgstr ""
+
+#: wpg-offerstamp.php:124
+msgid "Select a predefined stamp and its opacity"
+msgstr ""
+
+#: wpg-offerstamp.php:186
+msgid "Select BuddyPress groups to send mail to"
+msgstr ""
+
+#: templates/wp-greet-form-template.php:88
+msgid "Mandatory inputfields are marked with a"
+msgstr "Campurile obligatorii sunt marcate cu "
+
+#: templates/wp-greet-form-template.php:137
+msgid "Multiple adresses can be separated by comma"
+msgstr "Mai multe adrese pot fi separate prin virgula"
+
+#: templates/wp-greet-form-template.php:278
+msgid "If you have a package code, enter it here"
+msgstr ""
+
+#: templates/wp-greet-preview-template.php:47
+msgid "Bcc"
+msgstr ""
+
+#: templates/wp-greet-preview-template.php:65
+msgid "This card will be sent at"
+msgstr "Aceasta felicitare a fost trimisa la"
+
+#, fuzzy
+#~ msgid "Disabling Send image inline."
+#~ msgstr "Trimite imaginile inline"
+
+#~ msgid ""
+#~ "leave empty for no stamp, path must be relative to wordpress directory, e."
+#~ "g. wp-content/plugins/wp-greet/defaultstamp.jpg"
+#~ msgstr ""
+#~ "Lasati gol pentru nicio imagine, adresa trebuie sa fie relativa la "
+#~ "directorul wordpress, e.g. wp/content/plugins/wp-grett/defaultstamp.jpg"
+
+#~ msgid "Zurück"
+#~ msgstr "Am inteles"
